@@ -1,21 +1,30 @@
-// Admin.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Navigate } from 'react-router-dom';
-
+import AllMovies from '../components/Movie/AllMovies'; 
+import AllScreenings from '../components/Screening/AllScreenings';
 const Admin = () => {
-
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [showMotorcycles, setShowMotorcycles] = useState(false);
- 
-
-  const handleMotorcycleClick = () => {
-    setShowMotorcycles(true);
-  };
-
-  
+  const [showMovies, setShowMovies] = useState(false); 
+  const [showScreenings, setShowScreenings] = useState(false);
 
   const handleDropdownToggle = () => {
     setDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleMenuItemClick = (menuItem) => {
+ 
+    if (menuItem === 'Movies') {
+      setShowMovies(true);
+    } else {
+   
+      setShowMovies(false);
+    }
+    if (menuItem === 'Screening') {
+      setShowScreenings(true);
+    } else {
+     
+      setShowScreenings(false);
+    }
   };
 
   return (
@@ -26,22 +35,36 @@ const Admin = () => {
           <h2 className="text-2xl font-semibold">CineTixx</h2>
         </div>
         <ul>
-        <li className="p-4 cursor-pointer hover:bg-gray-700" onClick={handleMotorcycleClick}>
+          <li
+            className="p-4 cursor-pointer hover:bg-gray-700"
+            onClick={() => handleMenuItemClick('Cinema Room')}
+          >
             Cinema Room
           </li>
-
-          <li className="p-4 cursor-pointer hover:bg-gray-700" onClick={handleMotorcycleClick}>
+          <li
+            className="p-4 cursor-pointer hover:bg-gray-700"
+            onClick={() => handleMenuItemClick('Screening')}
+          >
             Screening
           </li>
-          <li className="p-4 cursor-pointer hover:bg-gray-700" onClick={handleMotorcycleClick}>
+          <li
+            className="p-4 cursor-pointer hover:bg-gray-700"
+            onClick={() => handleMenuItemClick('Movies')} 
+          >
             Movies
           </li>
-          <li className="p-4 cursor-pointer hover:bg-gray-700">
+          <li
+            className="p-4 cursor-pointer hover:bg-gray-700"
+            onClick={() => handleMenuItemClick('Booking')}
+          >
             Booking
-            </li>
-            <li className="p-4 cursor-pointer hover:bg-gray-700">
+          </li>
+          <li
+            className="p-4 cursor-pointer hover:bg-gray-700"
+            onClick={() => handleMenuItemClick('Staff')}
+          >
             Staff
-            </li>
+          </li>
         </ul>
       </div>
 
@@ -79,11 +102,7 @@ const Admin = () => {
                   aria-orientation="vertical"
                   aria-labelledby="options-menu"
                 >
-                  <button
-                   
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
-                    role="menuitem"
-                  >
+                  <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left" role="menuitem">
                     Logout
                   </button>
                 </div>
@@ -94,7 +113,9 @@ const Admin = () => {
 
         <h2 className="text-3xl mb-20 font-semibold">CineTixx Admin Panel</h2>
 
-       
+      
+        {showMovies && <AllMovies />}
+        {showScreenings && <AllScreenings />}
       </div>
     </div>
   );
