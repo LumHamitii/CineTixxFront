@@ -2,16 +2,20 @@ import React, { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import AllMovies from '../components/Movie/AllMovies'; 
 import AllScreenings from '../components/Screening/AllScreenings';
+import AllCinemaRooms from '../components/CinemaRoom/AllCinemaRooms';
+import AllSeats from '../components/Seat/AllSeats';
 const Admin = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [showMovies, setShowMovies] = useState(false); 
+  const [showSeats, setShowSeats] = useState(false); 
+  const [showCinemaRoom, setShowCinemaRoom] = useState(false); 
   const [showScreenings, setShowScreenings] = useState(false);
 
   const handleDropdownToggle = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
-  const handleMenuItemClick = (menuItem) => {
+  const handleMenuItemClick = (menuItem: string) => {
  
     if (menuItem === 'Movies') {
       setShowMovies(true);
@@ -25,6 +29,18 @@ const Admin = () => {
      
       setShowScreenings(false);
     }
+    if (menuItem === 'Seats') {
+      setShowSeats(true);
+    } else {
+     
+      setShowSeats(false);
+    }
+    if (menuItem === 'CinemaRoom') {
+      setShowCinemaRoom(true);
+    } else {
+     
+      setShowCinemaRoom(false);
+    }
   };
 
   return (
@@ -37,9 +53,15 @@ const Admin = () => {
         <ul>
           <li
             className="p-4 cursor-pointer hover:bg-gray-700"
-            onClick={() => handleMenuItemClick('Cinema Room')}
+            onClick={() => handleMenuItemClick('CinemaRoom')}
           >
             Cinema Room
+          </li>
+          <li
+            className="p-4 cursor-pointer hover:bg-gray-700"
+            onClick={() => handleMenuItemClick('Seats')}
+          >
+            Seats
           </li>
           <li
             className="p-4 cursor-pointer hover:bg-gray-700"
@@ -116,6 +138,8 @@ const Admin = () => {
       
         {showMovies && <AllMovies />}
         {showScreenings && <AllScreenings />}
+        {showCinemaRoom && <AllCinemaRooms />}
+        {showSeats && <AllSeats />}
       </div>
     </div>
   );
