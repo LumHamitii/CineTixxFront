@@ -4,12 +4,18 @@ import AllMovies from '../components/Movie/AllMovies';
 import AllScreenings from '../components/Screening/AllScreenings';
 import AllCinemaRooms from '../components/CinemaRoom/AllCinemaRooms';
 import AllSeats from '../components/Seat/AllSeats';
+import AllStaff from '../components/Staff/AllStaff';
+import AllPosition from '../components/Position/AllPosition';
+
 const Admin = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [showMovies, setShowMovies] = useState(false); 
   const [showSeats, setShowSeats] = useState(false); 
   const [showCinemaRoom, setShowCinemaRoom] = useState(false); 
-  const [showScreenings, setShowScreenings] = useState(false);
+    const [showScreenings, setShowScreenings] = useState(false);
+    const [showStaff, setShowStaff] = useState(false);
+    const [showPosition, setShowPosition] = useState(false);
+
 
   const handleDropdownToggle = () => {
     setDropdownOpen(!isDropdownOpen);
@@ -40,7 +46,17 @@ const Admin = () => {
     } else {
      
       setShowCinemaRoom(false);
-    }
+      }
+      if (menuItem === 'Staff') {
+          setShowStaff(true);
+      } else {
+          setShowStaff(false)
+      }
+      if (menuItem === 'Position') {
+          setShowPosition(true);
+      } else {
+          setShowPosition(false);
+      }
   };
 
   return (
@@ -86,7 +102,13 @@ const Admin = () => {
             onClick={() => handleMenuItemClick('Staff')}
           >
             Staff
-          </li>
+                  </li>
+                  <li
+                      className="p-4 cursor-pointer hover:bg-gray-700"
+                      onClick={() => handleMenuItemClick('Position')}
+                  >
+                  Position
+                  </li>
         </ul>
       </div>
 
@@ -139,7 +161,9 @@ const Admin = () => {
         {showMovies && <AllMovies />}
         {showScreenings && <AllScreenings />}
         {showCinemaRoom && <AllCinemaRooms />}
-        {showSeats && <AllSeats />}
+              {showSeats && <AllSeats />}
+              {showStaff && <AllStaff />}
+              {showPosition && <AllPosition />}
       </div>
     </div>
   );

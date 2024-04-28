@@ -14,7 +14,7 @@ const AddScreening = ({ onSuccess }) => {
     axios.get('http://localhost:5048/api/Screening/cinema-rooms')
       .then(response => {
         setCinemaRooms(response.data);
-      })
+      }) 
       .catch(error => {
         console.error('Error fetching cinema rooms:', error);
       });
