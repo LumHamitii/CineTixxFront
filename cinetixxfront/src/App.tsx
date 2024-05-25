@@ -1,24 +1,28 @@
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.css'
-import Home from './pages/Home'
-import Admin from './pages/Admin'
-
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Admin from './pages/Admin';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import PrivateRoute from './components/PrivateRoute';
 function App() {
-  
   return (
-   <div>
     <BrowserRouter>
-    <Routes>
-      <Route index element={<Home/>}/>
-      {/* <Route path="/" element={<Layout/>}/> */}
-      <Route path="/dashboard" element={<Admin/>}/>
-
-    </Routes>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route 
+          path="/dashboard" 
+          element={
+            <PrivateRoute>
+              {({ role }) => <Admin role={role} />}
+            </PrivateRoute>
+          } 
+        />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
     </BrowserRouter>
-   </div>
-  )
+  );
 }
 
-export default App
+export default App;
