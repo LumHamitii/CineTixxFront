@@ -1,9 +1,10 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import MovieDetail from './components/MovieDetail';
+import Booking from './components/Booking.tsx'
 import PrivateRoute from './components/PrivateRoute';
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/screenings/:movieId" element={<MovieDetail/>} />
+        <Route path="/booking/:screeningId" element={<Booking/>} />
+
       </Routes>
     </BrowserRouter>
   );
