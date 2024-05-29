@@ -5,16 +5,29 @@ const AddMovie = ({ onSuccess }) => {
   const [movieName, setMovieName] = useState('');
   const [movieDescription, setMovieDescription] = useState('');
   const [movieTrailer, setMovieTrailer] = useState('');
+  const [photos, setPhotos] = useState([]);
+
+  const handlePhotoChange = (e) => {
+    setPhotos(e.target.files);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const formData = new FormData();
+    formData.append('movieName', movieName);
+    formData.append('movieDescription', movieDescription);
+    formData.append('movieTrailer', movieTrailer);
+    for (let i = 0; i < photos.length; i++) {
+      formData.append('photos', photos[i]);
+    }
+
     try {
-      await axios.post('http://localhost:5048/api/Movie', {
-        movieName: movieName,
-        movieDescription: movieDescription,
-        movieTrailer: movieTrailer
+      await axios.post('http://localhost:5048/api/Movie', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
       });
-      onSuccess(); 
+      onSuccess();
     } catch (error) {
       console.error('Error adding movie:', error);
       alert('Failed to add movie. Please try again later.');
@@ -52,6 +65,15 @@ const AddMovie = ({ onSuccess }) => {
             onChange={(e) => setMovieTrailer(e.target.value)}
             className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
             required
+          />
+        </div>
+        <div>
+          <label className="block mb-1">Photos:</label>
+          <input
+            type="file"
+            multiple
+            onChange={handlePhotoChange}
+            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
           />
         </div>
         <button

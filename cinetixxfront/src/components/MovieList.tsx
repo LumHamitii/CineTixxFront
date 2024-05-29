@@ -25,7 +25,13 @@ const MovieList = () => {
                 {movies.map(movie => (
                     <Link to={`/screenings/${movie.id}`} key={movie.id}>
                         <div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300">
-                            <img src={movie.posterUrl} alt={movie.title} className="w-full h-64 object-cover rounded-md mb-4" />
+                            {movie.photos && movie.photos.length > 0 && (
+                                <img
+                                    src={`data:${movie.photos[0].contentType};base64,${movie.photos[0].photoData}`}
+                                    alt={movie.movieName}
+                                    className="w-full h-64 object-cover rounded-md mb-4"
+                                />
+                            )}
                             <h2 className="text-2xl font-semibold mb-2">{movie.movieName}</h2>
                             <p className="text-gray-400 mb-4">{movie.movieDescription}</p>
                             <div className="flex justify-between items-center">
