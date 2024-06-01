@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5048/api'; // Adjust the base URL as necessary
+const API_URL = 'http://localhost:5048/api'; 
 
 export const getAllMovies = async () => {
     const response = await axios.get(`${API_URL}/Movie`);

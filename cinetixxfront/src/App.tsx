@@ -24,6 +24,7 @@ function App() {
         <Route path="/screenings/:movieId" element={<MovieDetail/>} />
         <Route path="/booking/:screeningId" element={<Booking/>} />
 
+
       </Routes>
     </BrowserRouter>
   );

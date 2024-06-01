@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -13,11 +14,17 @@ const Login = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password })
         });
-        
+
         if (response.ok) {
             const data = await response.json();
             localStorage.setItem('token', data.token);
-            navigate('/dashboard');
+
+            const decodedToken = JSON.parse(atob(data.token.split('.')[1]));
+            if (decodedToken.role === 'User') {
+                navigate('/');
+            } else {
+                navigate('/dashboard');
+            }
         } else {
             alert('Login failed');
         }

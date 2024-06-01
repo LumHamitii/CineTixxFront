@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getScreeningById, bookScreening } from '../services/bookingService';
 
@@ -9,6 +9,12 @@ const Booking = () => {
     const [numberOfTickets, setNumberOfTickets] = useState(1);
 
     useEffect(() => {
+        const token = localStorage.getItem('token');
+        if (!token) {
+            navigate('/login'); // Redirect to login if token is not found
+            return;
+        }
+
         const fetchScreening = async () => {
             try {
                 const data = await getScreeningById(screeningId);
@@ -19,17 +25,24 @@ const Booking = () => {
         };
 
         fetchScreening();
-    }, [screeningId]);
+    }, [screeningId, navigate]);
 
     const handleBooking = async () => {
         try {
-            await bookScreening(screeningId, numberOfTickets);
-            navigate('/'); // Navigate back to home or to a success page
+            const token = localStorage.getItem('token');
+            if (!token) {
+                navigate('/login');
+                return;
+            }
+            const decodedToken = JSON.parse(atob(token.split('.')[1]));
+            const userId = decodedToken.nameid;
+            await bookScreening(screeningId, numberOfTickets, userId);
+            navigate('/');
         } catch (error) {
             console.error('Failed to book tickets', error);
         }
     };
-
+    
     if (!screening) return <div>Loading...</div>;
 
     return (
