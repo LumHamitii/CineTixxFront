@@ -207,7 +207,7 @@ const Admin = ({ role }) => {
                   onClick={handleDropdownToggle}
                   className="flex items-center text-white focus:outline-none bg-red"
                 >
-                  <span className="mr-2">Admin</span>
+                  <span className="mr-2">Account</span>
                   <svg
                     className="h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +244,7 @@ const Admin = ({ role }) => {
             </div>
           </div>
   
-          <h2 className="text-3xl mb-20 font-semibold">CineTixx Admin Panel</h2>
+          <h2 className="text-3xl mb-20 font-semibold">CineTixx User Panel</h2>
   
           {showMovies && <AllMovies />}
           {showScreenings && <AllScreenings />}
