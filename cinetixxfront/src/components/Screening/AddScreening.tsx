@@ -6,6 +6,7 @@ const AddScreening = ({ onSuccess }) => {
   const [endTime, setEndTime] = useState('');
   const [cinemaRoomId, setCinemaRoomId] = useState('');
   const [movieId, setMovieId] = useState('');
+  const [price, setPrice] = useState(''); // State for price
   const [cinemaRooms, setCinemaRooms] = useState([]);
   const [movies, setMovies] = useState([]);
 
@@ -36,7 +37,8 @@ const AddScreening = ({ onSuccess }) => {
         startTime: startTime,
         endTime: endTime,
         cinemaRoomId: cinemaRoomId,
-        movieId: movieId
+        movieId: movieId,
+        price: price // Include price in the request
       });
       if (typeof onSuccess === 'function') {
         onSuccess(); // Call the onSuccess callback to handle success action
@@ -68,6 +70,16 @@ const AddScreening = ({ onSuccess }) => {
             type="datetime-local"
             value={endTime}
             onChange={(e) => setEndTime(e.target.value)}
+            className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
+            required
+          />
+        </div>
+        <div>
+          <label className="block mb-1">Price:</label> {/* Add price input field */}
+          <input
+            type="number"
+            value={price}
+            onChange={(e) => setPrice(e.target.value)}
             className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
             required
           />

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getScreeningById, bookScreening } from '../services/bookingService';
+import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
 
 const Booking = () => {
     const { screeningId } = useParams();
@@ -27,7 +28,7 @@ const Booking = () => {
         fetchScreening();
     }, [screeningId, navigate]);
 
-    const handleBooking = async () => {
+    const handleBooking = async (orderId) => {
         try {
             const token = localStorage.getItem('token');
             if (!token) {
@@ -36,7 +37,11 @@ const Booking = () => {
             }
             const decodedToken = JSON.parse(atob(token.split('.')[1]));
             const userId = decodedToken.nameid;
+            
+            // Create the booking in the database
             await bookScreening(screeningId, numberOfTickets, userId);
+    
+            // Redirect to the home page or any other page as needed
             navigate('/');
         } catch (error) {
             console.error('Failed to book tickets', error);
@@ -62,12 +67,27 @@ const Booking = () => {
                         min="1"
                     />
                 </div>
-                <button
-                    onClick={handleBooking}
-                    className="mt-4 w-full bg-blue-600 p-2 rounded-md text-white"
-                >
-                    Book Tickets
-                </button>
+                <PayPalScriptProvider options={{ clientId: "AUIxojMpXDAPU_QVAhr4IBXtFt7goHJinozSklnokGX_LNsU03dJMlloW0fqafKxjJ3oVdWQE0TRfQHe" }}>
+                    <PayPalButtons
+                        style={{ layout: 'horizontal' }}
+                        createOrder={(data, actions) => {
+                            return actions.order.create({
+                                intent: 'CAPTURE', // Add intent here
+                                purchase_units: [{
+                                    amount: {
+                                        currency_code: 'USD',
+                                        value: (screening.price * numberOfTickets).toString(),
+                                    }
+                                }]
+                            });
+                        }}
+                        onApprove={(data, actions) => {
+                            return actions.order.capture().then(function (details) {
+                                handleBooking(data.orderID);
+                            });
+                        }}
+                    />
+                </PayPalScriptProvider>
             </div>
         </div>
     );
