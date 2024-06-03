@@ -14,12 +14,22 @@ const Login = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password })
         });
-
+    
         if (response.ok) {
             const data = await response.json();
-            localStorage.setItem('token', data.token);
-
-            const decodedToken = JSON.parse(atob(data.token.split('.')[1]));
+            const currentTimestamp = Math.floor(Date.now() / 1000); // Current time in seconds
+            const decodedToken = JSON.parse(atob(data.token.split('.')[1])); // Parse the token
+    
+            console.log(decodedToken); // Log the decoded token to check its structure
+    
+            // Modify the token payload
+            decodedToken.exp = currentTimestamp + 10; // Set expiration time to 10 seconds from now
+    
+            // Encode the modified payload back into a token string
+            const modifiedToken = `${data.token.split('.')[0]}.${btoa(JSON.stringify(decodedToken))}.${data.token.split('.')[2]}`;
+    
+            localStorage.setItem('token', modifiedToken);
+    
             if (decodedToken.role === 'User') {
                 navigate('/');
             } else {
@@ -29,6 +39,8 @@ const Login = () => {
             alert('Login failed');
         }
     };
+    
+    
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
