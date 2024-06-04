@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\cinetixxfront",
-    "\\cinetixxfront\\public",
     "\\cinetixxfront\\src",
-    "\\cinetixxfront\\src\\assets",
     "\\cinetixxfront\\src\\components",
-    "\\cinetixxfront\\src\\components\\Movie",
-    "\\cinetixxfront\\src\\components\\Position",
+    "\\cinetixxfront\\src\\components\\ComingSoon",
     "\\cinetixxfront\\src\\components\\Screening",
-    "\\cinetixxfront\\src\\components\\Staff"
+    "\\cinetixxfront\\src\\pages",
+    "\\cinetixxfront\\src\\services",
+    "\\cinetixxfront\\src\\shared",
+    "\\cinetixxfront\\src\\utils"
   ],
+  "SelectedNode": "\\cinetixxfront\\src\\components\\Header.tsx",
   "PreviewInSolutionExplorer": false
 }

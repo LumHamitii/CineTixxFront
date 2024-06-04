@@ -45,7 +45,7 @@ const Header = () => {
               <Link to="/" className="hover:text-gray-300">Home</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">Coming Soon</a>
+              <a href="/coming-soon" className="hover:text-gray-300">Coming Soon</a>
             </li>
             <li>
               <a href="#" className="hover:text-gray-300">Services</a>

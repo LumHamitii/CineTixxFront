@@ -3,6 +3,122 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\ComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\pages\\ComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoonList.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\ComingSoonList.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\MovieList.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\MovieList.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\pages\\Home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\comingsoonService.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\services\\comingsoonService.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\movieService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\services\\movieService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\MovieDetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\MovieDetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Footer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Footer.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\pages\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Booking.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Booking.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\AllComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\ComingSoon\\AllComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\EditComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\ComingSoon\\EditComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Admin.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\pages\\Admin.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\AddComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\ComingSoon\\AddComingSoon.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\EditScreening.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Screening\\EditScreening.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AddScreening.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Screening\\AddScreening.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\EditMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Movie\\EditMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AllMovies.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Movie\\AllMovies.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AddMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Movie\\AddMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\bookingService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\services\\bookingService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\utils\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\utils\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\PrivateRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\PrivateRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Staff\\AddStaff.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Staff\\AddStaff.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -29,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AddPosition.tsx||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Position\\AddPosition.tsx||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\shared\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -63,32 +175,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\CinemaRoom\\AddCinemaRoom.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AllMovies.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Movie\\AllMovies.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\EditMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Movie\\EditMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AddMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Movie\\AddMovie.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AddScreening.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Screening\\AddScreening.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\.eslintrc.cjs||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -99,28 +187,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Admin.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\pages\\Admin.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\public\\vite.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\public\\vite.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cinetixxfront\\src\\pages\\Home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -142,63 +214,388 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AllPosition.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
-              "ViewState": "AQIAAEUAAAAAY2ZmZmYUwE4AAAA2AAAA",
+              "DocumentIndex": 6,
+              "Title": "comingsoonService.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\comingsoonService.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\services\\comingsoonService.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\comingsoonService.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\services\\comingsoonService.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T15:57:27.184Z",
+              "WhenOpened": "2024-06-04T20:15:54.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Layout.jsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\shared\\Layout.jsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\shared\\Layout.jsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\shared\\Layout.jsx",
-              "RelativeToolTip": "cinetixxfront\\src\\shared\\Layout.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-21T11:36:16.11Z",
+              "DocumentIndex": 4,
+              "Title": "MovieList.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\MovieList.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\MovieList.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\MovieList.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\MovieList.tsx",
+              "ViewState": "AQIAAB0AAAAAZmZmZmYkwA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T16:06:56.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Home.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\pages\\Home.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Home.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\pages\\Home.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T11:36:11.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "movieService.ts",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\movieService.ts",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\services\\movieService.ts",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\movieService.ts",
+              "RelativeToolTip": "cinetixxfront\\src\\services\\movieService.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T16:14:06.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Header.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Header.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Header.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Header.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Header.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-01T21:16:21.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\App.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T12:49:16.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComingSoonList.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoonList.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\ComingSoonList.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoonList.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\ComingSoonList.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T20:02:47.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComingSoon.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\ComingSoon.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\pages\\ComingSoon.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\ComingSoon.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\pages\\ComingSoon.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T20:00:50.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovieDetail.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\MovieDetail.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\MovieDetail.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\MovieDetail.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\MovieDetail.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-03T21:58:59.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Footer.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Footer.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Footer.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Footer.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Footer.tsx",
+              "ViewState": "AQIAABAAAAAAAAAAAABIPQAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T20:08:40.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Booking.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Booking.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Booking.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Booking.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Booking.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-01T21:16:20.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllComingSoon.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\AllComingSoon.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\ComingSoon\\AllComingSoon.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\AllComingSoon.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\ComingSoon\\AllComingSoon.tsx",
+              "ViewState": "AQIAAEkAAAAgAAAAAAAmwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T17:12:46.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Login.jsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\pages\\Login.jsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Login.jsx",
+              "RelativeToolTip": "cinetixxfront\\src\\pages\\Login.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-02T10:24:16.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditComingSoon.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\EditComingSoon.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\ComingSoon\\EditComingSoon.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\EditComingSoon.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\ComingSoon\\EditComingSoon.tsx",
+              "ViewState": "AQIAADgAAAAAAAAAAAAmwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T17:14:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Admin.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Admin.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\pages\\Admin.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Admin.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\pages\\Admin.tsx",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T11:35:15.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddComingSoon.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\AddComingSoon.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\ComingSoon\\AddComingSoon.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\ComingSoon\\AddComingSoon.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\ComingSoon\\AddComingSoon.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T17:12:24.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditScreening.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\EditScreening.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Screening\\EditScreening.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\EditScreening.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Screening\\EditScreening.tsx",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAmwI0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-04T19:14:02.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AllScreenings.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAmwHYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T20:19:32.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddScreening.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAmwH4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-23T15:30:03.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditMovie.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-23T16:52:25.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AllMovies.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T15:46:53.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "bookingService.ts",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\bookingService.ts",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\services\\bookingService.ts",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\services\\bookingService.ts",
+              "RelativeToolTip": "cinetixxfront\\src\\services\\bookingService.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-02T10:18:03.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "main.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\main.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\main.tsx",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\main.tsx",
               "RelativeToolTip": "cinetixxfront\\src\\main.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-04-21T12:49:13.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddPosition.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "DocumentIndex": 24,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\vite.config.ts",
+              "RelativeDocumentMoniker": "cinetixxfront\\vite.config.ts",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\vite.config.ts",
+              "RelativeToolTip": "cinetixxfront\\vite.config.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T15:52:39.637Z",
+              "WhenOpened": "2024-04-21T20:15:37.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\index.html",
+              "RelativeDocumentMoniker": "cinetixxfront\\index.html",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\index.html",
+              "RelativeToolTip": "cinetixxfront\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-21T15:44:27.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddMovie.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T15:46:47.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\index.css",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\index.css",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\index.css",
+              "RelativeToolTip": "cinetixxfront\\src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-04T16:15:39.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "auth.js",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\utils\\auth.js",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\utils\\auth.js",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\utils\\auth.js",
+              "RelativeToolTip": "cinetixxfront\\src\\utils\\auth.js",
+              "ViewState": "AQIAAB4AAADAlpmZmZkpwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-02T10:18:12.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PrivateRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\PrivateRoute.jsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\PrivateRoute.jsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\PrivateRoute.jsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\PrivateRoute.jsx",
+              "ViewState": "AQIAAAgAAACALzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-02T10:04:39.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "EditPosition.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\EditPosition.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Position\\EditPosition.tsx",
@@ -211,7 +608,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 35,
+              "Title": "AddPosition.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Position\\AddPosition.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T15:52:39.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Layout.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\shared\\Layout.jsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\shared\\Layout.jsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\shared\\Layout.jsx",
+              "RelativeToolTip": "cinetixxfront\\src\\shared\\Layout.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-21T11:36:16.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "EditCinemaRoom.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\CinemaRoom\\EditCinemaRoom.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\CinemaRoom\\EditCinemaRoom.tsx",
@@ -224,7 +647,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 34,
+              "Title": "AllPosition.tsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
+              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
+              "RelativeToolTip": "cinetixxfront\\src\\components\\Position\\AllPosition.tsx",
+              "ViewState": "AQIAAEUAAAAAY2ZmZmYUwE4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-21T15:57:27.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "AddStaff.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Staff\\AddStaff.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Staff\\AddStaff.tsx",
@@ -237,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 30,
               "Title": "EditStaff.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Staff\\EditStaff.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Staff\\EditStaff.tsx",
@@ -250,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 31,
               "Title": "AllStaff.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Staff\\AllStaff.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Staff\\AllStaff.tsx",
@@ -263,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 37,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.css",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\App.css",
@@ -276,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 38,
               "Title": "EditSeat.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Seat\\EditSeat.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Seat\\EditSeat.tsx",
@@ -289,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 39,
               "Title": "AllSeats.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Seat\\AllSeats.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Seat\\AllSeats.tsx",
@@ -302,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 40,
               "Title": "AddSeat.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Seat\\AddSeat.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Seat\\AddSeat.tsx",
@@ -315,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 42,
               "Title": "AddCinemaRoom.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\CinemaRoom\\AddCinemaRoom.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\CinemaRoom\\AddCinemaRoom.tsx",
@@ -328,20 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AllMovies.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Movie\\AllMovies.tsx",
-              "ViewState": "AQIAADIAAACAJjMzM3MvwCIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T15:46:53.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 41,
               "Title": "AllCinemaRooms.tsx",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\CinemaRoom\\AllCinemaRooms.tsx",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\CinemaRoom\\AllCinemaRooms.tsx",
@@ -354,71 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EditMovie.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Movie\\EditMovie.tsx",
-              "ViewState": "AQIAADMAAAAAXGZmZmbqv2IAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-23T16:52:25.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddMovie.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Movie\\AddMovie.tsx",
-              "ViewState": "AQIAAAEAAABAMDMzMzMbwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T15:46:47.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddScreening.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Screening\\AddScreening.tsx",
-              "ViewState": "AQIAABQAAAAAPzMzMzMrwGYAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-23T15:30:03.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AllScreenings.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\components\\Screening\\AllScreenings.tsx",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAgwHYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T20:19:32.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\index.html",
-              "RelativeDocumentMoniker": "cinetixxfront\\index.html",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\index.html",
-              "RelativeToolTip": "cinetixxfront\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-21T15:44:27.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 43,
               "Title": "package-lock.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\package-lock.json",
               "RelativeDocumentMoniker": "cinetixxfront\\package-lock.json",
@@ -426,11 +785,12 @@
               "RelativeToolTip": "cinetixxfront\\package-lock.json",
               "ViewState": "AQIAANoBAAAAqJmZmZkOwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T20:14:54.945Z"
+              "WhenOpened": "2024-04-21T20:14:54.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 44,
               "Title": ".eslintrc.cjs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\.eslintrc.cjs",
               "RelativeDocumentMoniker": "cinetixxfront\\.eslintrc.cjs",
@@ -438,11 +798,12 @@
               "RelativeToolTip": "cinetixxfront\\.eslintrc.cjs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-21T12:49:36.829Z"
+              "WhenOpened": "2024-04-21T12:49:36.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 45,
               "Title": "vite-env.d.ts",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\vite-env.d.ts",
               "RelativeDocumentMoniker": "cinetixxfront\\src\\vite-env.d.ts",
@@ -450,23 +811,12 @@
               "RelativeToolTip": "cinetixxfront\\src\\vite-env.d.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T20:14:44.844Z"
+              "WhenOpened": "2024-04-21T20:14:44.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Admin.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Admin.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\pages\\Admin.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Admin.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\pages\\Admin.tsx",
-              "ViewState": "AQIAAAUAAABAZWZmZmYkwAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T11:35:15.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "vite.svg",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\public\\vite.svg",
               "RelativeDocumentMoniker": "cinetixxfront\\public\\vite.svg",
@@ -474,23 +824,12 @@
               "RelativeToolTip": "cinetixxfront\\public\\vite.svg",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-04-21T20:15:44.779Z"
+              "WhenOpened": "2024-04-21T20:15:44.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "vite.config.ts",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\vite.config.ts",
-              "RelativeDocumentMoniker": "cinetixxfront\\vite.config.ts",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\vite.config.ts",
-              "RelativeToolTip": "cinetixxfront\\vite.config.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T20:15:37.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 47,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\package.json",
               "RelativeDocumentMoniker": "cinetixxfront\\package.json",
@@ -498,35 +837,12 @@
               "RelativeToolTip": "cinetixxfront\\package.json",
               "ViewState": "AQIAABsAAACAAAAAAAAhwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T20:14:50.413Z"
+              "WhenOpened": "2024-04-21T20:14:50.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Home.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Home.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\pages\\Home.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\pages\\Home.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\pages\\Home.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T11:36:11.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.tsx",
-              "RelativeDocumentMoniker": "cinetixxfront\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\src\\App.tsx",
-              "RelativeToolTip": "cinetixxfront\\src\\App.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-21T12:49:16.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 48,
               "Title": "postcss.config.js",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\postcss.config.js",
               "RelativeDocumentMoniker": "cinetixxfront\\postcss.config.js",
@@ -534,11 +850,12 @@
               "RelativeToolTip": "cinetixxfront\\postcss.config.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-21T12:49:40.594Z"
+              "WhenOpened": "2024-04-21T12:49:40.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 49,
               "Title": "tsconfig.node.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\tsconfig.node.json",
               "RelativeDocumentMoniker": "cinetixxfront\\tsconfig.node.json",
@@ -546,11 +863,12 @@
               "RelativeToolTip": "cinetixxfront\\tsconfig.node.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T12:49:26.701Z"
+              "WhenOpened": "2024-04-21T12:49:26.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 50,
               "Title": "tsconfig.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\CineTixxFront\\cinetixxfront\\tsconfig.json",
               "RelativeDocumentMoniker": "cinetixxfront\\tsconfig.json",
@@ -558,7 +876,8 @@
               "RelativeToolTip": "cinetixxfront\\tsconfig.json",
               "ViewState": "AQIAAAYAAACAMTMzMzMrwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T12:49:21.697Z"
+              "WhenOpened": "2024-04-21T12:49:21.697Z",
+              "EditorCaption": ""
             }
           ]
         }

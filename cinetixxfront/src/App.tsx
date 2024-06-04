@@ -8,21 +8,24 @@ import MovieDetail from './components/MovieDetail';
 import Booking from './components/Booking.tsx';
 import PrivateRoute from './components/PrivateRoute';
 import TokenExpirationHandler from './components/TokenExpirationHandler';
+import ComingSoonList from './components/ComingSoonList'; // Import the ComingSoonList component
 
 function App() {
-  return (
-    <BrowserRouter>
-      <TokenExpirationHandler />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="/dashboard" element={<PrivateRoute>{({ role }) => <Admin role={role} />}</PrivateRoute>} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/screenings/:movieId" element={<MovieDetail />} />
-        <Route path="/booking/:screeningId" element={<Booking />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <TokenExpirationHandler />
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="/dashboard" element={<PrivateRoute>{({ role }) => <Admin role={role} />}</PrivateRoute>} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/screenings/:movieId" element={<MovieDetail />} />
+                <Route path="/booking/:screeningId" element={<Booking />} />
+                <Route path="/coming-soon" element={<ComingSoonList />} /> // Adjusted the route to use ComingSoonList
+             
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
