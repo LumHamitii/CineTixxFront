@@ -5,14 +5,21 @@ const AddComingSoon = ({ onAdd }) => {
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
     const [releaseDate, setReleaseDate] = useState('');
+    const [photo, setPhoto] = useState(null);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        const formData = new FormData();
+        formData.append('title', title);
+        formData.append('description', description);
+        formData.append('releaseDate', releaseDate);
+        formData.append('photo', photo);
+
         try {
-            const response = await axios.post('http://localhost:5048/api/ComingSoon', {
-                title: title,
-                description: description,
-                releaseDate: releaseDate
+            const response = await axios.post('http://localhost:5048/api/ComingSoon', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
             });
             if (typeof onAdd === 'function') {
                 onAdd(response.data); // Call the onAdd callback to handle addition
@@ -21,6 +28,7 @@ const AddComingSoon = ({ onAdd }) => {
             setTitle('');
             setDescription('');
             setReleaseDate('');
+            setPhoto(null);
         } catch (error) {
             console.error('Error adding coming soon:', error);
             alert('Failed to add coming soon. Please try again later.');
@@ -57,6 +65,16 @@ const AddComingSoon = ({ onAdd }) => {
                         value={releaseDate}
                         onChange={(e) => setReleaseDate(e.target.value)}
                         className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
+                        required
+                    />
+                </div>
+                <div>
+                    <label className="block mb-1">Photo:</label>
+                    <input
+                        type="file"
+                        onChange={(e) => setPhoto(e.target.files[0])}
+                        className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-indigo-500"
+                        accept="image/*"
                         required
                     />
                 </div>
