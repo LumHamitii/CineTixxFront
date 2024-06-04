@@ -8,22 +8,44 @@ const Register = () => {
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
     const navigate = useNavigate();
+
+    const validatePassword = (password) => {
+        const hasUpperCase = /[A-Z]/.test(password);
+        const hasLowerCase = /[a-z]/.test(password);
+        const hasNumber = /\d/.test(password);
+        const hasSymbol = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+
+        return hasUpperCase && hasLowerCase && hasNumber && hasSymbol;
+    };
 
     const handleRegister = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://localhost:5048/api/account/register', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ userName, firstName, lastName, email, password })
-        });
+        setError(''); // Clear previous errors
 
-        if (response.ok) {
-            const data = await response.json();
-            localStorage.setItem('token', data.token);
-            navigate('/dashboard');
-        } else {
-            alert('Registration failed');
+        if (!validatePassword(password)) {
+            setError('Password must contain at least one uppercase letter, one number, and one symbol');
+            return;
+        }
+
+        try {
+            const response = await fetch('http://localhost:5048/api/account/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ userName, firstName, lastName, email, password })
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                localStorage.setItem('token', data.token);
+                navigate('/dashboard');
+            } else {
+                const errorData = await response.json().catch(() => ({ message: 'Registration failed' }));
+                setError(errorData.message || 'Registration failed');
+            }
+        } catch (err) {
+            setError('Registration failed');
         }
     };
 
@@ -74,6 +96,7 @@ const Register = () => {
                         required
                         className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                     />
+                    {error && <p className="text-red-500 text-xs mt-1">{error}</p>}
                     <button type="submit" className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                             {/* Heroicon name: lock-closed */}
