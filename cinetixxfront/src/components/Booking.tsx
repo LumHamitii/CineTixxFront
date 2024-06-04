@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getScreeningById, bookScreening } from '../services/bookingService';
 import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
 import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 const Booking = () => {
     const { screeningId } = useParams();
@@ -15,7 +16,7 @@ const Booking = () => {
     useEffect(() => {
         const token = localStorage.getItem('token');
         if (!token) {
-            navigate('/login'); // Redirect to login if token is not found
+            navigate('/login');
             return;
         }
 
@@ -40,11 +41,8 @@ const Booking = () => {
             }
             const decodedToken = JSON.parse(atob(token.split('.')[1]));
             const userId = decodedToken.nameid;
-            
-            // Create the booking in the database
-            await bookScreening(screeningId, numberOfTickets, userId);
 
-            // Set booking success state
+            await bookScreening(screeningId, numberOfTickets, userId);
             setOrderId(orderId);
             setBookingSuccess(true);
         } catch (error) {
@@ -52,15 +50,43 @@ const Booking = () => {
         }
     };
 
-    const generateInvoice = () => {
+    const generateInvoice = async () => {
         const doc = new jsPDF();
-        doc.text("CINETIXX", 20, 10);
-        doc.text("Movie Ticket Invoice", 20, 20);
-        doc.text(`Order ID: ${orderId}`, 20, 30);
-        doc.text(`Movie: ${screening.movieTitle}`, 20, 40);
-        doc.text(`Date: ${new Date(screening.startTime).toLocaleString()}`, 20, 50);
-        doc.text(`Number of Tickets: ${numberOfTickets}`, 20, 60);
-        doc.text(`Total Price: $${(screening.price * numberOfTickets).toFixed(2)}`, 20, 70);
+        const pdfWidth = doc.internal.pageSize.getWidth();
+        const pdfHeight = doc.internal.pageSize.getHeight();
+
+        const invoiceHTML = `
+            <div style="font-family: 'Helvetica', 'Arial', sans-serif; padding: 20px; width: ${pdfWidth}px; border: 2px dashed #333; border-radius: 10px; position: relative;">
+                <div style="text-align: center; margin-bottom: 10px;">
+                    <h1 style="color: #d9534f; margin: 0;">CINETIXX</h1>
+                    <h2 style="color: #333; margin: 0;">Movie Ticket</h2>
+                </div>
+                <hr style="border: 1px dashed #333; margin: 10px 0;" />
+                <div style="margin-bottom: 10px;">
+                    <p style="margin: 5px 0;"><strong>Order ID:</strong> ${orderId}</p>
+                    <p style="margin: 5px 0;"><strong>Movie:</strong> ${screening.movieTitle}</p>
+                    <p style="margin: 5px 0;"><strong>Date:</strong> ${new Date(screening.startTime).toLocaleString()}</p>
+                    <p style="margin: 5px 0;"><strong>Number of Tickets:</strong> ${numberOfTickets}</p>
+                    <p style="margin: 5px 0;"><strong>Total Price:</strong> $${(screening.price * numberOfTickets).toFixed(2)}</p>
+                </div>
+                <hr style="border: 1px dashed #333; margin: 10px 0;" />
+                <p style="text-align: center; color: #555;">Thank you for your purchase!</p>
+            </div>
+        `;
+
+        const container = document.createElement('div');
+        container.innerHTML = invoiceHTML;
+        document.body.appendChild(container);
+
+        const canvas = await html2canvas(container);
+        const imgData = canvas.toDataURL('image/png');
+
+        document.body.removeChild(container);
+
+        const imgWidth = pdfWidth;
+        const imgHeight = (canvas.height * pdfWidth) / canvas.width;
+
+        doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
         doc.save(`Invoice_${orderId}.pdf`);
     };
 
@@ -107,6 +133,10 @@ const Booking = () => {
                                 return actions.order.capture().then(function (details) {
                                     handleBooking(details.id);
                                 });
+                            }}
+                            onError={(err) => {
+                                console.error('PayPal Checkout onError:', err);
+                                alert('An error occurred with the payment process. Please try again.');
                             }}
                         />
                     </PayPalScriptProvider>

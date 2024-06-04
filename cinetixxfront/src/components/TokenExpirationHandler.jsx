@@ -36,7 +36,7 @@ const TokenExpirationHandler = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  console.log('TokenExpirationHandler rendered');
+ 
 
   const handleExtendSession = () => {
     const token = localStorage.getItem('token');
