@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Register = () => {
     const [userName, setUserName] = useState('');
@@ -50,10 +52,12 @@ const Register = () => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div>
+     <Header/>
+        <div className="min-h-screen flex items-center justify-center bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-md w-full space-y-8">
                 <div>
-                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Create an account</h2>
+                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-50">Create an account</h2>
                 </div>
                 <form className="mt-8 space-y-6" onSubmit={handleRegister}>
                     <input 
@@ -117,6 +121,8 @@ const Register = () => {
                     </div>
                 </form>
             </div>
+        </div>
+        <Footer/>
         </div>
     );
 };
