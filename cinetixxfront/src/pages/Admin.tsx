@@ -7,6 +7,7 @@ import AllSeats from '../components/Seat/AllSeats';
 import AllPosition from '../components/Position/AllPosition';
 import AllStaff from '../components/Staff/AllStaff';
 import AllComingSoon from '../components/ComingSoon/AllComingSoon';
+import AllEvents from '../components/Events/AllEvents';
 const Admin = ({ role }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [showMovies, setShowMovies] = useState(false);
@@ -16,6 +17,7 @@ const Admin = ({ role }) => {
   const [showPositions, setShowPositions] = useState(false);
   const [showStaff, setShowStaff] = useState(false);
   const [showComingSoon, setShowComingSoon] = useState(false);
+  const [showEvent, setEvent] = useState(false);
   const navigate = useNavigate();
 
   const handleDropdownToggle = () => {
@@ -30,6 +32,7 @@ const Admin = ({ role }) => {
     setShowPositions(menuItem === 'Position');
     setShowStaff(menuItem === 'Staff');
     setShowComingSoon(menuItem === 'Coming Soon');
+    setEvent(menuItem === 'Events');
   };
 
   const handleLogout = () => {
@@ -94,6 +97,12 @@ const Admin = ({ role }) => {
             >
               Coming Soon
             </li>
+            <li
+              className="p-4 cursor-pointer hover:bg-gray-700"
+              onClick={() => handleMenuItemClick('Events')}
+            >
+              Events
+            </li>
           </ul>
         </div>
   
@@ -153,6 +162,7 @@ const Admin = ({ role }) => {
           {showPositions && <AllPosition/>}
           {showStaff && <AllStaff/>}
           {showComingSoon && <AllComingSoon/>}
+          {showEvent && <AllEvents/>}
         </div>
       </div>
     );

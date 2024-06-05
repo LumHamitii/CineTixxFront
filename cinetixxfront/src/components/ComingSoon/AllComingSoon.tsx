@@ -53,8 +53,7 @@ const AllComingSoon = () => {
                         {editingComingSoonId === comingSoon.id ? (
                             <EditComingSoon
                                 comingSoon={comingSoon}
-                                onUpdate={handleUpdateComingSoon}
-                            />
+                                onUpdate={handleUpdateComingSoon} onCancel={undefined}                            />
                         ) : (
                             <>
                                 <h3 className="text-xl font-bold mb-2">{comingSoon.title}</h3>
