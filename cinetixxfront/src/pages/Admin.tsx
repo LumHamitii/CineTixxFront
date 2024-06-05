@@ -8,16 +8,10 @@ import AllPosition from '../components/Position/AllPosition';
 import AllStaff from '../components/Staff/AllStaff';
 import AllComingSoon from '../components/ComingSoon/AllComingSoon';
 import AllEvents from '../components/Events/AllEvents';
+import { FaFilm, FaChair, FaCalendarAlt, FaUser, FaMapMarkerAlt, FaClipboardList, FaTicketAlt, FaSignOutAlt, FaPlusCircle } from 'react-icons/fa';
 const Admin = ({ role }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const [showMovies, setShowMovies] = useState(false);
-  const [showSeats, setShowSeats] = useState(false);
-  const [showCinemaRoom, setShowCinemaRoom] = useState(false);
-  const [showScreenings, setShowScreenings] = useState(false);
-  const [showPositions, setShowPositions] = useState(false);
-  const [showStaff, setShowStaff] = useState(false);
-  const [showComingSoon, setShowComingSoon] = useState(false);
-  const [showEvent, setEvent] = useState(false);
+  const [activeSection, setActiveSection] = useState('Movies');
   const navigate = useNavigate();
 
   const handleDropdownToggle = () => {
@@ -25,86 +19,107 @@ const Admin = ({ role }) => {
   };
 
   const handleMenuItemClick = (menuItem) => {
-    setShowMovies(menuItem === 'Movies');
-    setShowScreenings(menuItem === 'Screening');
-    setShowSeats(menuItem === 'Seats');
-    setShowCinemaRoom(menuItem === 'CinemaRoom');
-    setShowPositions(menuItem === 'Position');
-    setShowStaff(menuItem === 'Staff');
-    setShowComingSoon(menuItem === 'Coming Soon');
-    setEvent(menuItem === 'Events');
+    setActiveSection(menuItem);
   };
 
   const handleLogout = () => {
     localStorage.removeItem('token');
     navigate('/login');
   };
-
+  const renderContent = () => {
+    switch (activeSection) {
+      case 'Movies':
+        return <AllMovies />;
+      case 'Screening':
+        return <AllScreenings />;
+      case 'Seats':
+        return <AllSeats />;
+      case 'CinemaRoom':
+        return <AllCinemaRooms />;
+      case 'Position':
+        return <AllPosition />;
+      case 'Staff':
+        return <AllStaff />;
+      case 'Coming Soon':
+        return <AllComingSoon />;
+      case 'Events':
+        return <AllEvents />;
+      default:
+        return <AllMovies />;
+    }
+  };
   if (role == 'Admin') {
     return (
       <div className="min-h-screen flex bg-gray-100">
         {/* Sidebar */}
         <div className="w-64 bg-gray-800 text-white">
-          <div className="p-4">
-            <h2 className="text-2xl font-semibold">CineTixx</h2>
-          </div>
-          <ul>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('CinemaRoom')}
-            >
-              Cinema Room
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Seats')}
-            >
-              Seats
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Screening')}
-            >
-              Screening
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Movies')}
-            >
-              Movies
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Booking')}
-            >
-              Booking
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Staff')}
-            >
-              Staff
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Position')}
-            >
-              Position
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Coming Soon')}
-            >
-              Coming Soon
-            </li>
-            <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Events')}
-            >
-              Events
-            </li>
-          </ul>
+        <div className="p-4 flex items-center justify-between bg-gray-900">
+          <h2 className="text-2xl font-semibold">CineTixx</h2>
+          <button
+            type="button"
+            onClick={handleDropdownToggle}
+            className="text-white focus:outline-none"
+          >
+            <FaUser className="h-5 w-5" />
+          </button>
         </div>
+        <ul>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'CinemaRoom' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('CinemaRoom')}
+          >
+            <FaMapMarkerAlt className="mr-2" /> Cinema Room
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Seats' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Seats')}
+          >
+            <FaChair className="mr-2" /> Seats
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Screening' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Screening')}
+          >
+            <FaCalendarAlt className="mr-2" /> Screening
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Movies' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Movies')}
+          >
+            <FaFilm className="mr-2" /> Movies
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Booking' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Booking')}
+          >
+            <FaTicketAlt className="mr-2" /> Booking
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Staff' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Staff')}
+          >
+            <FaUser className="mr-2" /> Staff
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Position' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Position')}
+          >
+            <FaClipboardList className="mr-2" /> Position
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Coming Soon' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Coming Soon')}
+          >
+            <FaPlusCircle className="mr-2" /> Coming Soon
+          </li>
+          <li
+            className={`p-4 flex items-center cursor-pointer hover:bg-gray-700 ${activeSection === 'Events' ? 'bg-gray-700' : ''}`}
+            onClick={() => handleMenuItemClick('Events')}
+          >
+            <FaCalendarAlt className="mr-2" /> Events
+          </li>
+        </ul>
+      </div>
   
         {/* Main Content */}
         <div className="flex-1 p-10">
@@ -140,29 +155,23 @@ const Admin = ({ role }) => {
                     aria-orientation="vertical"
                     aria-labelledby="options-menu"
                   >
-                    <button
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full text-left"
-                      role="menuitem"
-                      onClick={handleLogout}
-                    >
-                      Logout
-                    </button>
                   </div>
                 </div>
               )}
             </div>
+            <button
+            type="button"
+            onClick={handleLogout}
+            className="flex items-center text-white bg-red-600 px-4 py-2 rounded"
+          >
+            <FaSignOutAlt className="mr-2" /> Logout
+          </button>
           </div>
-  
           <h2 className="text-3xl mb-20 font-semibold">CineTixx Admin Panel</h2>
-  
-          {showMovies && <AllMovies />}
-          {showScreenings && <AllScreenings />}
-          {showCinemaRoom && <AllCinemaRooms />}
-          {showSeats && <AllSeats />}
-          {showPositions && <AllPosition/>}
-          {showStaff && <AllStaff/>}
-          {showComingSoon && <AllComingSoon/>}
-          {showEvent && <AllEvents/>}
+          
+          <div>
+          {renderContent()}
+        </div>
         </div>
       </div>
     );
@@ -265,10 +274,6 @@ const Admin = ({ role }) => {
   
           <h2 className="text-3xl mb-20 font-semibold">CineTixx User Panel</h2>
   
-          {showMovies && <AllMovies />}
-          {showScreenings && <AllScreenings />}
-          {showCinemaRoom && <AllCinemaRooms />}
-          {showSeats && <AllSeats />}
         </div>
       </div>
     );
