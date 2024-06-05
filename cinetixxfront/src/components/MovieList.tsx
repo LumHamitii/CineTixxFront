@@ -33,7 +33,6 @@ const MovieList = () => {
                                 />
                             )}
                             <h2 className="text-2xl font-semibold mb-2">{movie.movieName}</h2>
-                            <p className="text-gray-400 mb-4">{movie.movieDescription}</p>
                             <div className="flex justify-between items-center">
                                 <span className="text-lg font-bold">{movie.movieTrailer} min</span>
                             </div>

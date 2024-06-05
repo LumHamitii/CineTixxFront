@@ -4,6 +4,8 @@ import { getScreeningById, bookScreening } from '../services/bookingService';
 import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import Footer from './Footer';
+import Header from './Header';
 
 const Booking = () => {
     const { screeningId } = useParams();
@@ -95,6 +97,8 @@ const Booking = () => {
     const totalPrice = (screening.price * numberOfTickets).toFixed(2);
 
     return (
+        <div>
+            <Header/>
         <div className="bg-gray-900 min-h-screen text-white p-8">
             <h1 className="text-4xl font-bold text-center mb-8">Booking</h1>
             <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
@@ -152,6 +156,8 @@ const Booking = () => {
                     </div>
                 )}
             </div>
+        </div>
+        <Footer/>
         </div>
     );
 };
