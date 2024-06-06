@@ -40,7 +40,7 @@ const Admin = ({ role }) => {
 
   const handleLogout = () => {
     localStorage.removeItem('token');
-    navigate('/login');
+    navigate('/');
   };
 
   if (role == 'Admin') {
