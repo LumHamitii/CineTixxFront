@@ -11,6 +11,7 @@ import TokenExpirationHandler from './components/TokenExpirationHandler';
 import ComingSoonList from './components/ComingSoonList'; // Import the ComingSoonList component
 import EventList from './components/EventList.tsx';
 import EventDetails from './components/EventDetails.tsx';
+import Services from './pages/Services.tsx';
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/coming-soon" element={<ComingSoonList />} /> // Adjusted the route to use ComingSoonList
                 <Route path="/events" element={<EventList />} />
                 <Route path="/event/:eventId" element={<EventDetails />} />
+                <Route path="/services" element={<Services />} />
             </Routes>
         </BrowserRouter>
     );

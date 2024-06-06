@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
@@ -51,11 +51,11 @@ const Header = () => {
               <a href="/events" className="hover:text-gray-300">Events</a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300">Services</a>
+              <a href="#" className="hover:text-gray-300">
+              <Link to="/services" className="hover:text-gray-300">Services</Link>
+              </a>
             </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">Contact</a>
-            </li>
+            
           </ul>
         </nav>
         <div className="flex items-center space-x-4 mr-3 relative">
@@ -65,7 +65,7 @@ const Header = () => {
                 Welcome, {username}
               </span>
               {isDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2">
+                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2 z-50">
                   <Link to="/dashboard" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Dashboard</Link>
                   <button onClick={handleLogout} className="block w-full text-left px-4 py-2 text-gray-800 hover:bg-gray-200">Logout</button>
                 </div>

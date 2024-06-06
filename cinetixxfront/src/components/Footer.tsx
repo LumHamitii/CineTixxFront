@@ -89,7 +89,7 @@ const Footer = () => {
 
       <div className="text-center p-3 bg-gray bg-opacity-20">
         © 2024 Copyright:
-        <a className="text-white" href="">All Rights Reserved</a>
+        <a className="text-white" href=""> All Rights Reserved</a>
       </div>
     </footer>
   );

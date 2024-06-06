@@ -29,7 +29,7 @@ const MovieList = () => {
                                 <img
                                     src={`data:${movie.photos[0].contentType};base64,${movie.photos[0].photoData}`}
                                     alt={movie.movieName}
-                                    className="w-full h-64 object-cover rounded-md mb-4"
+                                    className="w-full h-ull object-cover rounded-md mb-4"
                                 />
                             )}
                             <h2 className="text-2xl font-semibold mb-2">{movie.movieName}</h2>
@@ -40,6 +40,7 @@ const MovieList = () => {
                     </Link>
                 ))}
             </div>
+            
         </div>
     );
 };
