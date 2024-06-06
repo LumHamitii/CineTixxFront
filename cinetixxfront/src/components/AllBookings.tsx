@@ -43,9 +43,11 @@ const AllBookings = () => {
                 {bookings.map(booking => (
                     <div key={booking.id} className="bg-gray-800 p-4 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300">
                         <h2 className="text-2xl font-semibold mb-2">{booking.Id}</h2>
-                        <p className="text-gray-400 mb-4">{new Date(booking.startTime).toLocaleString()}</p>
+                        <p className="text-gray-400 mb-4">{new Date(booking.screening.startTime).toLocaleString()}</p>
+                        <p className="text-lg"> Movie :{booking.screening.movie.movieName}</p>
+                        <p className="text-lg"> Salla :{booking.screening.cinemaRoom.name}</p>
                         <p className="text-lg">Tickets: {booking.numberOfTickets}</p>
-                        <p>Price: {booking.totalPrice}</p>
+                        <p>Price: {booking.numberOfTickets * booking.screening.price}$</p>
                     </div>
                 ))}
             </div>
