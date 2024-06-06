@@ -6,14 +6,16 @@ import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import Footer from './Footer';
 import Header from './Header';
+import Modal from '../Modal';  
 
 const Booking = () => {
     const { screeningId } = useParams();
     const navigate = useNavigate();
     const [screening, setScreening] = useState(null);
-    const [numberOfTickets, setNumberOfTickets] = useState(1);
+    const [numberOfTickets, setNumberOfTickets] = useState(2);
     const [bookingSuccess, setBookingSuccess] = useState(false);
     const [orderId, setOrderId] = useState(null);
+    const [showModal, setShowModal] = useState(false);  // State for showing the modal
 
     useEffect(() => {
         const token = localStorage.getItem('token');
@@ -34,21 +36,22 @@ const Booking = () => {
         fetchScreening();
     }, [screeningId, navigate]);
 
-    const handleBooking = async (orderId) => {
-        try {
-            const token = localStorage.getItem('token');
-            if (!token) {
-                navigate('/login');
-                return;
-            }
-            const decodedToken = JSON.parse(atob(token.split('.')[1]));
-            const userId = decodedToken.nameid;
+    const handleBooking = async () => {
+        const token = localStorage.getItem('token');
+        if (!token) {
+            navigate('/login');
+            return;
+        }
+        const decodedToken = JSON.parse(atob(token.split('.')[1]));
+        const userId = decodedToken.nameid;
 
+        try {
             await bookScreening(screeningId, numberOfTickets, userId);
-            setOrderId(orderId);
-            setBookingSuccess(true);
+            return true;
         } catch (error) {
             console.error('Failed to book tickets', error);
+            setShowModal(true);  // Show the modal if booking fails
+            return false;
         }
     };
 
@@ -99,65 +102,77 @@ const Booking = () => {
     return (
         <div>
             <Header/>
-        <div className="bg-gray-900 min-h-screen text-white p-8">
-            <h1 className="text-4xl font-bold text-center mb-8">Booking</h1>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
-                <h2 className="text-2xl font-semibold mb-2">{new Date(screening.startTime).toLocaleString()}</h2>
-                <p className="text-gray-400 mb-4">{new Date(screening.endTime).toLocaleString()}</p>
-                <span className="text-lg font-bold">{screening.price}$ per ticket</span>
-                <div className="mt-4">
-                    <label className="block mb-2 text-lg">Number of Tickets</label>
-                    <input
-                        type="number"
-                        value={numberOfTickets}
-                        onChange={(e) => setNumberOfTickets(Number(e.target.value))}
-                        className="w-full p-2 rounded-md bg-gray-700 text-white"
-                        min="1"
-                    />
-                </div>
-                <div className="mt-4">
-                    <span className="text-lg font-bold">Total: {totalPrice}$</span>
-                </div>
-                {!bookingSuccess ? (
-                    <PayPalScriptProvider options={{ clientId: "AUIxojMpXDAPU_QVAhr4IBXtFt7goHJinozSklnokGX_LNsU03dJMlloW0fqafKxjJ3oVdWQE0TRfQHe" }}>
-                        <PayPalButtons
-                            style={{ layout: 'horizontal' }}
-                            createOrder={(data, actions) => {
-                                return actions.order.create({
-                                    intent: 'CAPTURE',
-                                    purchase_units: [{
-                                        amount: {
-                                            currency_code: 'USD',
-                                            value: totalPrice,
-                                        }
-                                    }]
-                                });
-                            }}
-                            onApprove={(data, actions) => {
-                                return actions.order.capture().then(function (details) {
-                                    handleBooking(details.id);
-                                });
-                            }}
-                            onError={(err) => {
-                                console.error('PayPal Checkout onError:', err);
-                                alert('An error occurred with the payment process. Please try again.');
-                            }}
+            <div className="bg-gray-900 min-h-screen text-white p-8">
+                <h1 className="text-4xl font-bold text-center mb-8">Booking</h1>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
+                    <h2 className="text-2xl font-semibold mb-2">{new Date(screening.startTime).toLocaleString()}</h2>
+                    <p className="text-gray-400 mb-4">{new Date(screening.endTime).toLocaleString()}</p>
+                    <span className="text-lg font-bold">{screening.price}$ per ticket</span>
+                    <div className="mt-4">
+                        <label className="block mb-2 text-lg">Number of Tickets</label>
+                        <input
+                            type="number"
+                            value={numberOfTickets}
+                            onChange={(e) => setNumberOfTickets(Number(e.target.value))}
+                            className="w-full p-2 rounded-md bg-gray-700 text-white"
+                            min="1"
                         />
-                    </PayPalScriptProvider>
-                ) : (
-                    <div className="mt-4 text-center">
-                        <p className="text-lg font-bold text-green-500">Booking was successful!</p>
-                        <button
-                            onClick={generateInvoice}
-                            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md"
-                        >
-                            Download Invoice
-                        </button>
                     </div>
-                )}
+                    <div className="mt-4">
+                        <span className="text-lg font-bold">Total: {totalPrice}$</span>
+                    </div>
+                    {!bookingSuccess ? (
+                        <PayPalScriptProvider options={{ clientId: "AUIxojMpXDAPU_QVAhr4IBXtFt7goHJinozSklnokGX_LNsU03dJMlloW0fqafKxjJ3oVdWQE0TRfQHe" }}>
+                            <PayPalButtons
+                                style={{ layout: 'horizontal' }}
+                                createOrder={async (data, actions) => {
+                                    const bookingResult = await handleBooking();
+                                    if (bookingResult) {
+                                        return actions.order.create({
+                                            intent: 'CAPTURE',
+                                            purchase_units: [{
+                                                amount: {
+                                                    currency_code: 'USD',
+                                                    value: totalPrice,
+                                                }
+                                            }]
+                                        });
+                                    } else {
+                                        return Promise.reject(new Error('Booking failed'));
+                                    }
+                                }}
+                                onApprove={(data, actions) => {
+                                    return actions.order.capture().then(function (details) {
+                                        setOrderId(details.id);
+                                        setBookingSuccess(true);
+                                    });
+                                }}
+                                onError={(err) => {
+                                    console.error('PayPal Checkout onError:', err);
+                                    setShowModal(true);  // Show the modal on PayPal error
+                                }}
+                            />
+                        </PayPalScriptProvider>
+                    ) : (
+                        <div className="mt-4 text-center">
+                            <p className="text-lg font-bold text-green-500">Booking was successful!</p>
+                            <button
+                                onClick={generateInvoice}
+                                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md"
+                            >
+                                Download Invoice
+                            </button>
+                        </div>
+                    )}
+                </div>
             </div>
-        </div>
-        <Footer/>
+            <Footer/>
+            <Modal 
+                show={showModal} 
+                onClose={() => setShowModal(false)} 
+                title="Booking Error">
+                <p>No available seats for the number of tickets you purchased.</p>
+            </Modal>
         </div>
     );
 };
