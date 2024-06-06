@@ -12,7 +12,7 @@ const Booking = () => {
     const { screeningId } = useParams();
     const navigate = useNavigate();
     const [screening, setScreening] = useState(null);
-    const [numberOfTickets, setNumberOfTickets] = useState(2);
+    const [numberOfTickets, setNumberOfTickets] = useState(3);
     const [bookingSuccess, setBookingSuccess] = useState(false);
     const [orderId, setOrderId] = useState(null);
     const [showModal, setShowModal] = useState(false);  // State for showing the modal
