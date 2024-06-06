@@ -9,6 +9,7 @@ import AllStaff from '../components/Staff/AllStaff';
 import AllBookings from '../components/AllBookings';
 import AllComingSoon from '../components/ComingSoon/AllComingSoon';
 import AllEvents from '../components/Events/AllEvents';
+import AllAdminBookings from '../components/AllAdminBookings';
 import { FaFilm, FaChair, FaCalendarAlt, FaUser, FaMapMarkerAlt, FaClipboardList, FaTicketAlt, FaSignOutAlt, FaPlusCircle } from 'react-icons/fa';
 
 const Admin = ({ role }) => {
@@ -22,6 +23,8 @@ const Admin = ({ role }) => {
   const [showEvents, setShowEvents] = useState(false);
   const [showComingSoon, setShowComingSoon] = useState(false);
   const [showBookings, setShowBookings] = useState(false);
+  const [showABookings, setShowABookings] = useState(false);
+
   const navigate = useNavigate();
 
   const handleDropdownToggle = () => {
@@ -38,6 +41,7 @@ const Admin = ({ role }) => {
     setShowEvents(menuItem === 'Events');
     setShowComingSoon(menuItem === 'Coming Soon');
     setShowBookings(menuItem === 'Bookings');
+    setShowABookings(menuItem === 'ABookings');
   };
 
   const handleLogout = () => {
@@ -80,7 +84,7 @@ const Admin = ({ role }) => {
             </li>
             <li
               className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
-              onClick={() => handleMenuItemClick('Booking')}
+              onClick={() => handleMenuItemClick('ABookings')}
             >
               <FaTicketAlt className="mr-2" /> Booking
             </li>
@@ -168,6 +172,8 @@ const Admin = ({ role }) => {
           {showStaff && <AllStaff/>}
           {showEvents && <AllEvents/>}
           {showComingSoon && <AllComingSoon/>}
+          {showABookings && <AllAdminBookings/>}
+
          
         </div>
       </div>
