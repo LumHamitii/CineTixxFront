@@ -9,6 +9,9 @@ import AllStaff from '../components/Staff/AllStaff';
 import AllBookings from '../components/AllBookings';
 import AllComingSoon from '../components/ComingSoon/AllComingSoon';
 import AllEvents from '../components/Events/AllEvents';
+import AllAdminBookings from '../components/AllAdminBookings';
+import { FaFilm, FaChair, FaCalendarAlt, FaUser, FaMapMarkerAlt, FaClipboardList, FaTicketAlt, FaSignOutAlt, FaPlusCircle } from 'react-icons/fa';
+
 const Admin = ({ role }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [showMovies, setShowMovies] = useState(false);
@@ -20,6 +23,8 @@ const Admin = ({ role }) => {
   const [showEvents, setShowEvents] = useState(false);
   const [showComingSoon, setShowComingSoon] = useState(false);
   const [showBookings, setShowBookings] = useState(false);
+  const [showABookings, setShowABookings] = useState(false);
+
   const navigate = useNavigate();
 
   const handleDropdownToggle = () => {
@@ -36,6 +41,7 @@ const Admin = ({ role }) => {
     setShowEvents(menuItem === 'Events');
     setShowComingSoon(menuItem === 'Coming Soon');
     setShowBookings(menuItem === 'Bookings');
+    setShowABookings(menuItem === 'ABookings');
   };
 
   const handleLogout = () => {
@@ -53,58 +59,58 @@ const Admin = ({ role }) => {
           </div>
           <ul>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('CinemaRoom')}
             >
-              Cinema Room
+            <FaMapMarkerAlt className="mr-2" />  Cinema Room
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Seats')}
             >
-              Seats
+            <FaChair className="mr-2" />  Seats
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Screening')}
             >
-              Screening
+              <FaCalendarAlt className="mr-2" />  Screening
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Movies')}
             >
-              Movies
+             <FaFilm className="mr-2" /> Movies
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
-              onClick={() => handleMenuItemClick('Booking')}
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
+              onClick={() => handleMenuItemClick('ABookings')}
             >
-              Booking
+              <FaTicketAlt className="mr-2" /> Booking
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Staff')}
             >
-              Staff
+             <FaUser className="mr-2" />  Staff
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Position')}
             >
-              Position
+              <FaClipboardList className="mr-2" /> Position
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Events')}
             >
-              Events
+             <FaCalendarAlt className="mr-2" /> Events
             </li>
             <li
-              className="p-4 cursor-pointer hover:bg-gray-700"
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
               onClick={() => handleMenuItemClick('Coming Soon')}
             >
-              Coming Soon
+             <FaPlusCircle className="mr-2" /> Coming Soon
             </li>
           </ul>
         </div>
@@ -166,6 +172,8 @@ const Admin = ({ role }) => {
           {showStaff && <AllStaff/>}
           {showEvents && <AllEvents/>}
           {showComingSoon && <AllComingSoon/>}
+          {showABookings && <AllAdminBookings/>}
+
          
         </div>
       </div>
