@@ -8,6 +8,9 @@ import AllPosition from '../components/Position/AllPosition';
 import AllStaff from '../components/Staff/AllStaff';
 import AllBookings from '../components/AllBookings';
 import AllComingSoon from '../components/ComingSoon/AllComingSoon';
+import Group from '../components/Group';
+import Member from '../components/Member';
+
 import AllEvents from '../components/Events/AllEvents';
 import AllAdminBookings from '../components/AllAdminBookings';
 import { FaFilm, FaChair, FaCalendarAlt, FaUser, FaMapMarkerAlt, FaClipboardList, FaTicketAlt, FaSignOutAlt, FaPlusCircle } from 'react-icons/fa';
@@ -24,6 +27,10 @@ const Admin = ({ role }) => {
   const [showComingSoon, setShowComingSoon] = useState(false);
   const [showBookings, setShowBookings] = useState(false);
   const [showABookings, setShowABookings] = useState(false);
+  const [showGroups, setShowGroups] = useState(false);
+  const [showMembers, setShowMembers] = useState(false);
+
+
 
   const navigate = useNavigate();
 
@@ -42,6 +49,10 @@ const Admin = ({ role }) => {
     setShowComingSoon(menuItem === 'Coming Soon');
     setShowBookings(menuItem === 'Bookings');
     setShowABookings(menuItem === 'ABookings');
+    setShowGroups(menuItem === 'Groups');
+    setShowMembers(menuItem === 'Members');
+
+
   };
 
   const handleLogout = () => {
@@ -112,6 +123,18 @@ const Admin = ({ role }) => {
             >
              <FaPlusCircle className="mr-2" /> Coming Soon
             </li>
+            <li
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
+              onClick={() => handleMenuItemClick('Groups')}
+            >
+             <FaPlusCircle className="mr-2" /> Groups
+            </li>
+            <li
+              className={"p-4 flex items-center cursor-pointer hover:bg-gray-700"}
+              onClick={() => handleMenuItemClick('Members')}
+            >
+             <FaPlusCircle className="mr-2" /> Members
+            </li>
           </ul>
         </div>
   
@@ -173,6 +196,10 @@ const Admin = ({ role }) => {
           {showEvents && <AllEvents/>}
           {showComingSoon && <AllComingSoon/>}
           {showABookings && <AllAdminBookings/>}
+          {showGroups && <Group/>}
+          {showMembers && <Member/>}
+
+
 
          
         </div>
